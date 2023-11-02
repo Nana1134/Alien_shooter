@@ -39,6 +39,6 @@ public class NewBehaviourScript : MonoBehaviour
 		
 		newBullet.transform.forward = dirWithoutSpread.normalized;
 		newBullet.GetComponent<Rigidbody>().velocity = transform.forward * BulletVelocity;
-		Destroy(newBullet, 1000f * Time.deltaTime);
+	
 	}
 }
