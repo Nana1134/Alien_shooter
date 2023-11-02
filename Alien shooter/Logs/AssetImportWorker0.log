@@ -1,0 +1,482 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.11f1 (621cd60d08fd) revision 6429910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ru' Physical Memory: 8006 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/тс/OneDrive/Документы/GitHub/Alien_shooter/Alien shooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65187
+Successfully changed project path to: C:/Users/тс/OneDrive/Документы/GitHub/Alien_shooter/Alien shooter
+C:/Users/тс/OneDrive/Документы/GitHub/Alien_shooter/Alien shooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30960] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2110782819 [EditorId] 2110782819 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EUAGDS61) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30960] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2110782819 [EditorId] 2110782819 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EUAGDS61) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 43.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.11f1 (621cd60d08fd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/тс/OneDrive/Документы/GitHub/Alien_shooter/Alien shooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56680
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028164 seconds.
+- Loaded All Assemblies, in  0.842 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.544 seconds
+Domain Reload Profiling:
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (307ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+				TypeCache.Initialize (288ms)
+					TypeCache.ScanAssembly (283ms)
+				ResolveRequiredComponents (1ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (3532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (286ms)
+				SetLoadedEditorAssemblies (74ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (2743ms)
+				ProcessInitializeOnLoadMethodAttributes (409ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\тс\OneDrive\Документы\GitHub\Alien_shooter\Alien shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\тс\OneDrive\Документы\GitHub\Alien_shooter\Alien shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  7.305 seconds
+Refreshing native plugins compatible for Editor in 24.53 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 13.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		LoadAllAssembliesAndSetupDomain (6773ms)
+			LoadAssemblies (5981ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (995ms)
+				TypeCache.Initialize (945ms)
+					TypeCache.ScanAssembly (935ms)
+				ResolveRequiredComponents (14ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (12558ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (2586ms)
+				ProcessInitializeOnLoadAttributes (9787ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (80ms)
+				EditorAssembliesLoaded (5ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 556.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (66.2 KB). Loaded Objects now: 3535.
+Memory consumption went from 108.9 MB to 108.8 MB.
+Total: 58.800100 ms (FindLiveObjects: 4.093700 ms CreateObjectMapping: 2.388400 ms MarkObjects: 50.153900 ms  DeleteObjects: 2.154700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90321.936378 seconds.
+  path: Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_back.jpg
+  artifactKey: Guid(18800562f22729144855d15877aa0d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_back.jpg using Guid(18800562f22729144855d15877aa0d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e4914cab77051085e1f14e068564e4') in 1.750792 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_left.jpg
+  artifactKey: Guid(0c2aaf64762c5454f8ca8b7216756e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_left.jpg using Guid(0c2aaf64762c5454f8ca8b7216756e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5514415453c01f177ce8aa26fec78298') in 0.232830 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_top.jpg
+  artifactKey: Guid(4c8f456e2d0c35c45857484a873baead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_top.jpg using Guid(4c8f456e2d0c35c45857484a873baead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbe3b8ac4c3447fdf5a09374fda2625') in 0.103515 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_bottom.jpg
+  artifactKey: Guid(17fcb2224992b3f449ea4b99c3814453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Skybox/Skybox_BlueNebular_Textures/BlueNebular_bottom.jpg using Guid(17fcb2224992b3f449ea4b99c3814453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c83d0459a25c8346c0c734be1d67f2e') in 0.126344 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\тс\OneDrive\Документы\GitHub\Alien_shooter\Alien shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\тс\OneDrive\Документы\GitHub\Alien_shooter\Alien shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.873 seconds
+Refreshing native plugins compatible for Editor in 8.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (410ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		LoadAllAssembliesAndSetupDomain (1457ms)
+			LoadAssemblies (869ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (707ms)
+				TypeCache.Initialize (696ms)
+					TypeCache.ScanAssembly (682ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (813ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 170.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3541.
+Memory consumption went from 107.8 MB to 107.8 MB.
+Total: 45.591600 ms (FindLiveObjects: 2.104700 ms CreateObjectMapping: 2.743900 ms MarkObjects: 40.180100 ms  DeleteObjects: 0.350400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 296.410199 seconds.
+  path: Assets/SciFi_Gun_Collection
+  artifactKey: Guid(00e0ee5fd71b1104391e8de0c725645e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection using Guid(00e0ee5fd71b1104391e8de0c725645e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69662b4f850a39f23afb8ae053ee0c17') in 0.048497 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.129898 seconds.
+  path: Assets/SciFi_Gun_Collection/Models
+  artifactKey: Guid(e3d7261836b565e409594d38f6ffd168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models using Guid(e3d7261836b565e409594d38f6ffd168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1479b571bf739424fe4f3a528946508') in 0.001308 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.340518 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/hellwailer.FBX
+  artifactKey: Guid(fccd8e251d698f7449ed9aca4bacc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/hellwailer.FBX using Guid(fccd8e251d698f7449ed9aca4bacc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8e241e95c6536c28597a58c8cfbbe1') in 0.303783 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 280.784336 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/Materials
+  artifactKey: Guid(0c6278bfb0a512a488b5d7f361067443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/Materials using Guid(0c6278bfb0a512a488b5d7f361067443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0fa0f019f1e02c7e599ee22082581b') in 0.001887 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.853023 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/Materials/fusion_core.mat
+  artifactKey: Guid(6c3ce9b00135d32458957b2929a6a545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/Materials/fusion_core.mat using Guid(6c3ce9b00135d32458957b2929a6a545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51c68873bfe34a3e906a5fb7881998b') in 0.143024 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 416.577963 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures
+  artifactKey: Guid(15af08dff19a5fc41b35cadcf0a139f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures using Guid(15af08dff19a5fc41b35cadcf0a139f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529f8c052d02725d8b8073a6c107f14f') in 0.001435 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025894 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/archtronic.png
+  artifactKey: Guid(ece474ccfa71a0645bcf9b439275c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/archtronic.png using Guid(ece474ccfa71a0645bcf9b439275c465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddcbdd70534b093321ba8e968f5b3845') in 0.036562 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/hellwailer_spec.png
+  artifactKey: Guid(bf29ea40f53fbbc4198d7a502b7c1293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/hellwailer_spec.png using Guid(bf29ea40f53fbbc4198d7a502b7c1293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba4ccdbcc84ec910b251c863262acc4') in 0.023994 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/hellwailer_Normal.png
+  artifactKey: Guid(24dafb6391eeb7f44b9074e5a0df7938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/hellwailer_Normal.png using Guid(24dafb6391eeb7f44b9074e5a0df7938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4ba67ca026a87cb17729ee5d6fcf15') in 0.034683 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/fire_sleet_spec.png
+  artifactKey: Guid(ec4677926a7388944be5f2b650465569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/fire_sleet_spec.png using Guid(ec4677926a7388944be5f2b650465569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b02f7a841140576de8c868afcc4a0bc') in 0.026032 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/fire_sleet_Normal.png
+  artifactKey: Guid(9a333889a54992c45b8131fa7df1114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/fire_sleet_Normal.png using Guid(9a333889a54992c45b8131fa7df1114d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07f69aa2319e469b2483367def037e0') in 0.025046 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/mauler.png
+  artifactKey: Guid(dd5c4510c3042fd49a587c4886cbd534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/mauler.png using Guid(dd5c4510c3042fd49a587c4886cbd534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad19b59de921b3db8cee69220bb37adc') in 0.025624 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/hellwailer.png
+  artifactKey: Guid(f06c78d5841222647b2819a438571634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/hellwailer.png using Guid(f06c78d5841222647b2819a438571634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863409a845785ce75a006c43b16c4114') in 0.025737 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SciFi_Gun_Collection/Textures/grimbrand_spec.png
+  artifactKey: Guid(9f8d8c00694d50f41a2c06fb04206503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Textures/grimbrand_spec.png using Guid(9f8d8c00694d50f41a2c06fb04206503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c373a14b0e3a6c734e76bfde72019433') in 0.023549 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.839231 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/archtronic.FBX
+  artifactKey: Guid(c65eeed0e623d84468374b51a0d355da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/archtronic.FBX using Guid(c65eeed0e623d84468374b51a0d355da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d760f131c17e5c50f173134b51e2c4') in 0.086530 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/hellwailer.FBX
+  artifactKey: Guid(fccd8e251d698f7449ed9aca4bacc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/hellwailer.FBX using Guid(fccd8e251d698f7449ed9aca4bacc50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3270ff381894e6039ab29365d285e7d4') in 0.047262 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 7.427676 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/Materials/archtronic.mat
+  artifactKey: Guid(89f98175e2798b4459ae8fcfc064f205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/Materials/archtronic.mat using Guid(89f98175e2798b4459ae8fcfc064f205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e5a519c599d4e48a485e0ceb7a979b') in 0.054054 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/Materials/mauler.mat
+  artifactKey: Guid(b1ef718eff01b184985194afcab62985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/Materials/mauler.mat using Guid(b1ef718eff01b184985194afcab62985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a043577911b687dc804de596592509') in 0.057425 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SciFi_Gun_Collection/Models/Materials/grimbrand.mat
+  artifactKey: Guid(c9c44ad1bbde38b4ca221ccfa98530ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Gun_Collection/Models/Materials/grimbrand.mat using Guid(c9c44ad1bbde38b4ca221ccfa98530ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e5e9b65ae6e4be1e76e982ab87c31c') in 0.038858 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 188.855856 seconds.
+  path: Assets/#OnePotatoKingdom_FULL/Prefabs/#Planets/Temperate/Temperate_Design1.prefab
+  artifactKey: Guid(b9049dd74bfbc314788b507ed5a2ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/#OnePotatoKingdom_FULL/Prefabs/#Planets/Temperate/Temperate_Design1.prefab using Guid(b9049dd74bfbc314788b507ed5a2ef2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f1dcc90f19dba38a0d06ac92827039') in 0.027819 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\тс\OneDrive\Документы\GitHub\Alien_shooter\Alien shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\тс\OneDrive\Документы\GitHub\Alien_shooter\Alien shooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.769 seconds
+Refreshing native plugins compatible for Editor in 9.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.564 seconds
+Domain Reload Profiling:
+	ReloadAssembly (380ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		LoadAllAssembliesAndSetupDomain (1383ms)
+			LoadAssemblies (746ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (726ms)
+				TypeCache.Initialize (717ms)
+					TypeCache.ScanAssembly (703ms)
+				ResolveRequiredComponents (8ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (947ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (214ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 79.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3588.
+Memory consumption went from 113.0 MB to 113.0 MB.
+Total: 51.561200 ms (FindLiveObjects: 1.722700 ms CreateObjectMapping: 1.576200 ms MarkObjects: 47.973000 ms  DeleteObjects: 0.279100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
