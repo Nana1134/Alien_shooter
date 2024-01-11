@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
 	void Start()
     {
 		rb = GetComponent<Rigidbody>();
+		transform.rotation = new Quaternion(0,0,0,0) ;
 	}
 
+	
     // Update is called once per frame
     void Update()
     {

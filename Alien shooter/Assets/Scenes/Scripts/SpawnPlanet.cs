@@ -1,13 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class SpawnPlanet : MonoBehaviour
 {
 	public GameObject[] planetPrefab;
-
-	public int maxPlanet = 5;
-	public int countPlanet = 0;
 
 	public float timeSpawn = 5f;
 	private float timer;
@@ -31,6 +32,7 @@ public class SpawnPlanet : MonoBehaviour
 		{
 			timer = timeSpawn;
 			Spawn();
+			
 		}
 	}
 	void Spawn()
@@ -40,11 +42,8 @@ public class SpawnPlanet : MonoBehaviour
 		randZ = Random.Range(150f, 200f);
 		whereToSpawn = new Vector3(randX, randY, randZ);
 		int random = Random.Range(0, planetPrefab.Length-1);
-		if (countPlanet < maxPlanet)
-		{
-			Instantiate(planetPrefab[random], whereToSpawn, Quaternion.identity);
-			countPlanet++;
-		}
+		Instantiate(planetPrefab[random], whereToSpawn, Quaternion.identity);
 		
 	}
+	
 }

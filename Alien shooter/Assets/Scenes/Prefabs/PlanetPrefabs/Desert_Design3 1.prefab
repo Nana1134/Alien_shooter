@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3999211990399924434}
   m_Layer: 0
   m_Name: Desert_Design3 1
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3964950637588362778}
-  m_Mesh: {fileID: -6217523338990424137, guid: aedcbbcd95cc1a04ea4439b39559f547, type: 3}
+  m_Mesh: {fileID: -6217523338990424137, guid: bb8e886d35fc55349a695e69a640acb0, type: 3}
 --- !u!23 &3403177147441578694
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -63,9 +63,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: edcbdcea739a7434a8a142e24b672251, type: 2}
-  - {fileID: 2100000, guid: accab146ca1b86f4dbe0848cde7f7f68, type: 2}
-  - {fileID: 2100000, guid: 2b9ef3981fb11f343beab792902c2105, type: 2}
+  - {fileID: 2100000, guid: 243e8090d3dea9348872dbdd44b643e1, type: 2}
+  - {fileID: 2100000, guid: 9d375122cfdf57142b9582428768a21d, type: 2}
+  - {fileID: 2100000, guid: d05d06d62946f504791f8e65e1b6ac1c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,3 +120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d2c14060699944f94039bb9d2eb7b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotation: {x: 10, y: 10, z: 10}
+  meshObject: {fileID: 98248244194133001}
+  rotationSpeed: 10
+  randomize: 1
+  maxRotationSpeed: 100
+  minRotationSpeed: 10

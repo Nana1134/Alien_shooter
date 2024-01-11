@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1462103180212678829}
   m_Layer: 0
   m_Name: Alien_Design1 1
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345651076695995216}
-  m_Mesh: {fileID: 3745490167340057536, guid: 16eb1ce9abd69ec48bc01307fd93ad1a, type: 3}
+  m_Mesh: {fileID: 3745490167340057536, guid: 0803910a1849faa4685d93a6d7eeed76, type: 3}
 --- !u!23 &761214486731556748
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -63,9 +63,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 04ce7cb5dcbf3bb42bd60eeade0ee6f4, type: 2}
-  - {fileID: 2100000, guid: 60235d40f2bb00042b69cbf5bdf3dcf8, type: 2}
-  - {fileID: 2100000, guid: 0f1cacc11a55bc647b6199e0abacf87c, type: 2}
+  - {fileID: 2100000, guid: 1ddae096a8dc19f4f9f26eed7161deab, type: 2}
+  - {fileID: 2100000, guid: ade63bf6feb61db4eb1aacb92ce759e1, type: 2}
+  - {fileID: 2100000, guid: 3821e2fe58f0bf14e9db34ebeaaea1fe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,6 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d2c14060699944f94039bb9d2eb7b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotation: {x: 10, y: 10, z: 10}
+  meshObject: {fileID: 2663860894798233923}
+  rotationSpeed: 10
+  randomize: 1
+  maxRotationSpeed: 200
+  minRotationSpeed: 10
 --- !u!135 &1462103180212678829
 SphereCollider:
   m_ObjectHideFlags: 0

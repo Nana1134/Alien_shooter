@@ -1,17 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NewBehaviourScript : MonoBehaviour
 {
 	public GameObject BulletPrefab;
 	public Camera mainCamera;
 	public Transform spawnBullet;
-	[SerializeField] TextMeshProUGUI textSnake;
+	[SerializeField] TextMeshProUGUI counter;
 
 	public float BulletVelocity = 180f;
+	public int maxShoot = 5;
 	public int countShoot = 0;
+
+	public int cor_delay = 3;
 	// Start is called before the first frame update
 	void Start()
     {
@@ -24,7 +29,8 @@ public class NewBehaviourScript : MonoBehaviour
 		if (Input.GetMouseButtonDown(0))
 		{
 			Shoot();
-			countShoot++;
+			CountShoots();
+
 		}
 	}
 	private void Shoot()
@@ -46,4 +52,28 @@ public class NewBehaviourScript : MonoBehaviour
 		newBullet.GetComponent<Rigidbody>().velocity = transform.forward * BulletVelocity;
 	
 	}
+	private void CountShoots()
+	{		
+		countShoot++;
+		counter.text = countShoot.ToString() + "/" + maxShoot.ToString();
+		if (countShoot == maxShoot)
+		{
+			StartCoroutine(DelayCore()); 
+		}
+	}
+
+	public void OpenMenu()
+	{
+		SceneManager.LoadScene("Menu");
+	}
+
+
+	IEnumerator DelayCore() 
+	{
+		yield return new WaitForSeconds(cor_delay);
+		Console.WriteLine("DELAY");
+		OpenMenu(); // Сделать canva с поражением кнопками главного меню, restart уровень
+
+	}
+
 }

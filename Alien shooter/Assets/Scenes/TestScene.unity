@@ -319,7 +319,11 @@ MonoBehaviour:
   BulletPrefab: {fileID: 8808278021469632236, guid: 60e1993318acf4d4eb8e899ea45c0734, type: 3}
   mainCamera: {fileID: 963194227}
   spawnBullet: {fileID: 25418609}
+  counter: {fileID: 1892696909}
   BulletVelocity: 180
+  maxShoot: 5
+  countShoot: 0
+  cor_delay: 3
 --- !u!1 &147835637
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,7 +477,7 @@ GameObject:
   - component: {fileID: 599417282}
   - component: {fileID: 599417281}
   m_Layer: 5
-  m_Name: Count
+  m_Name: CountPlanet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -519,7 +523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 5/5
+  m_text: 0/5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1023,6 +1027,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 754912659}
   m_CullTransparentMesh: 1
+--- !u!1 &943862683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943862685}
+  - component: {fileID: 943862684}
+  m_Layer: 0
+  m_Name: Progress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &943862684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943862683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad160ae23314504c96a93c2fb36aef9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countPlanet: {fileID: 599417281}
+  PlayerInfo:
+    Planets: 0
+    maxPlanets: 5
+--- !u!4 &943862685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943862683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.40947533, y: -0.9544573, z: 0.13070488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,7 +1789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '5/5
+  m_text: '0/5
 
 '
   m_isRightToLeft: 0
@@ -2010,8 +2062,6 @@ MonoBehaviour:
   - {fileID: 6691969691684082872, guid: 7443230f89d44d0468e73420711f9f21, type: 3}
   - {fileID: 8952356248333744488, guid: 0a1cee1aae77c404f82c27bc82bf5d8c, type: 3}
   - {fileID: 5251406827822045083, guid: 66df0f95ec628a248a383f4f0a2a5306, type: 3}
-  maxPlanet: 5
-  countPlanet: 0
   timeSpawn: 5
   whereToSpawn: {x: 0, y: 0, z: 0}
   randX: 0

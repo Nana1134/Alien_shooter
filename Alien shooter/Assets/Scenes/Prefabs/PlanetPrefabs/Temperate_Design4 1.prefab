@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2264187689412719451}
   m_Layer: 0
   m_Name: Temperate_Design4 1
-  m_TagString: Untagged
+  m_TagString: Planet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8952356248333744488}
-  m_Mesh: {fileID: -7787603422890415000, guid: 1e08d24ddfafba94bb1696fa6d2b2675, type: 3}
+  m_Mesh: {fileID: -7787603422890415000, guid: f288141042bd81140b9b490f46ecc6d1, type: 3}
 --- !u!23 &7206320838448795060
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -63,9 +63,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7acb83174b1ec4c40909c07995b7167e, type: 2}
-  - {fileID: 2100000, guid: 5508d846a3e652d42ba77d02e8d0e07a, type: 2}
-  - {fileID: 2100000, guid: 82f4eb0a58fa86c45bb87c54460b3f44, type: 2}
+  - {fileID: 2100000, guid: 7f9915192cf302a4bb488dcb586eed6a, type: 2}
+  - {fileID: 2100000, guid: 064a13ab3b9e6684590479724d499769, type: 2}
+  - {fileID: 2100000, guid: 72058b2bafff8944eac5393eb98edeb8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -120,3 +120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d2c14060699944f94039bb9d2eb7b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotation: {x: 10, y: 10, z: 10}
+  meshObject: {fileID: 5361096975166507899}
+  rotationSpeed: 10
+  randomize: 1
+  maxRotationSpeed: 200
+  minRotationSpeed: 10
