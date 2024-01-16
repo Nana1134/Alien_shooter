@@ -37,6 +37,7 @@ public class PlanetController : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
     {
+		
 		startPosition = transform.position;
 		if (meshObject == null)
 
@@ -59,7 +60,8 @@ public class PlanetController : MonoBehaviour
 	void Update()
     {
 		finalPoint = new Vector3(4.5f,-3.5f,-5f);
-		transform.position = Vector3.Lerp(transform.position, finalPoint, 0.5f * Time.deltaTime);
+		transform.position = Vector3.Lerp(transform.position, finalPoint, 0.8f * Time.deltaTime);
+		
 	}
 
 	void FixedUpdate()
@@ -73,6 +75,7 @@ public class PlanetController : MonoBehaviour
 	{
 		AddScore();
 	}
+
 
 	private void AddScore()
 	{

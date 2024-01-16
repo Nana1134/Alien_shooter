@@ -15,13 +15,14 @@ public class NewBehaviourScript : MonoBehaviour
 	public float BulletVelocity = 180f;
 	public int maxShoot = 5;
 	public int countShoot = 0;
+	public GameObject planelLose;
 
 	public int cor_delay = 3;
 	// Start is called before the first frame update
-	void Start()
+	void Awake()
     {
-        
-    }
+		planelLose.SetActive(false);
+	}
 
     // Update is called once per frame
     void Update()
@@ -64,14 +65,14 @@ public class NewBehaviourScript : MonoBehaviour
 
 	public void OpenMenu()
 	{
-		SceneManager.LoadScene("Menu");
+		Time.timeScale = 0;
+		planelLose.SetActive(true);
 	}
 
 
 	IEnumerator DelayCore() 
 	{
 		yield return new WaitForSeconds(cor_delay);
-		Console.WriteLine("DELAY");
 		OpenMenu(); // Сделать canva с поражением кнопками главного меню, restart уровень
 
 	}

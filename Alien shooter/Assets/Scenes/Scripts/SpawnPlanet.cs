@@ -36,14 +36,13 @@ public class SpawnPlanet : MonoBehaviour
 		}
 	}
 	void Spawn()
-	{
+	{		
 		randX = Random.Range(-85f, 90f);
 		randY = Random.Range(-30f, 30f);
 		randZ = Random.Range(150f, 200f);
 		whereToSpawn = new Vector3(randX, randY, randZ);
 		int random = Random.Range(0, planetPrefab.Length-1);
 		Instantiate(planetPrefab[random], whereToSpawn, Quaternion.identity);
-		
 	}
 	
 }
